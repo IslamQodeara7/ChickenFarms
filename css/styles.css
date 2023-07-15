@@ -1,0 +1,515 @@
+/* Fixed Styling Start */
+
+* {
+    direction: rtl;
+}
+
+:root {
+    --mainColor1: #665df2;
+    --mainColor2: #b9b4fa;
+    --mainColor3: #4bf2de;
+    --mainColor4: #e5fdfa;
+    --mainColor5: #23205c;
+}
+
+body {
+    font-family: 'Tajawal', sans-serif;
+}
+
+
+
+.endLine1 {
+    background-color: #fff;
+    margin: auto;
+    height: 2px;
+}
+
+.endLine2 {
+    background-color: var(--mainColor3);
+    margin: auto;
+    height: 2px;
+}
+
+.websiteMenuButton {
+    background-color: var(--mainColor3) !important;
+    border-color: var(--mainColor3) !important;
+}
+
+.websiteFormSendButton {
+    background-color: var(--mainColor1) !important;
+    border-color: var(--mainColor1) !important;
+}
+
+.websiteFormStyle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--mainColor4);
+    border: 2px solid var(--mainColor5);
+    margin: 10px 0px;
+
+}
+
+.websiteFormStyle input {
+    border: none !important;
+    outline: none !important;
+    width: 90%;
+    background-color: transparent;
+    height: 30px;
+    padding: 0px 10px;
+}
+
+.websiteFormIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--mainColor5);
+    color: var(--mainColor4);
+    height: 30px;
+    width: 10%;
+    padding: 0px 20px;
+}
+
+.websiteTextAreaStyle,
+.websiteUploadImageStyle {
+    background-color: var(--mainColor4);
+    border: 2px solid var(--mainColor5);
+}
+
+.websiteTextAreaStyle textarea {
+    border: none !important;
+    outline: none !important;
+    width: 100%;
+    background-color: transparent;
+}
+
+.websiteTextAreaStyle .websiteFormIcon,
+.websiteUploadImageStyle .websiteFormIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--mainColor5);
+    color: var(--mainColor4);
+    height: 30px;
+    padding: 0px 20px;
+    width: 100% !important;
+}
+
+
+/* Fixed Styling End */
+
+/* Navbar Styling Start */
+
+nav {
+    font-weight: bold;
+    background-color: var(--mainColor4);
+}
+
+.responsiveNavbar {
+    position: fixed;
+    bottom: 0;
+    display: none !important;
+    width: 100%;
+    margin: auto;
+    padding: 30px;
+    background-color: var(--mainColor5);
+    ;
+    z-index: 99999999;
+}
+
+.responsiveNavbar div {
+    font-size: 20px;
+    width: 50% !important;
+
+    text-align: center !important;
+}
+
+.responsiveNavbar a {
+    text-decoration: none;
+    color: var(--mainColor1);
+}
+
+
+nav .nav-link {
+    color: var(--mainColor1);
+}
+
+nav .nav-link i {
+    font-size: 20px;
+}
+
+nav .nav-link:hover {
+    color: var(--mainColor3);
+}
+
+/* Navbar Styling End */
+
+/* Home Styling Start */
+
+.numbers,
+.colon {
+    margin: 0px 2px;
+    font-size: 20px;
+}
+
+.colon {
+    transform: translateY(-10%);
+}
+
+.numbers {
+    width: 25px;
+    height: 40px;
+    background-color: var(--mainColor2);
+    color: var(--mainColor4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.numbers::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    right: 0%;
+    height: 2px;
+    background-color: var(--mainColor4);
+    transform: translateY(-50%);
+
+}
+
+
+/* Home Styling End */
+
+/* Website Menu Styling Start */
+
+.websiteMenuItem {
+    padding: 0px 5px;
+
+    height: 200px;
+
+}
+
+.websiteMenuItem a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background-position: center center;
+    background-size: cover;
+    text-decoration: none;
+    color: var(--mainColor4);
+}
+
+/* Website Menu Styling End */
+
+/* chickens Stock Market Styling Start */
+
+.chickensStockMarketTable tr {
+    border-width: 5px !important;
+}
+
+.chickensStockMarketTable td {
+    text-align: center;
+
+}
+
+/* chickens Stock Market Styling End */
+
+/* chicks Stock Market Styling Start */
+
+.chicksStockMarketTable tr {
+    border-width: 5px !important;
+}
+
+.chicksStockMarketTable td {
+    text-align: center;
+
+}
+
+/* chicks Stock Market Styling End */
+
+
+/* feed Price Styling Start */
+
+.feedPriceTable tr {
+    border-width: 5px !important;
+}
+
+.feedPriceTable td {
+    text-align: center;
+
+}
+
+/* feed Price Styling End */
+
+/* buy Chicken Styling Start */
+
+.buyChickenItem {
+    border: 2px solid var(--mainColor5);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px !important;
+    margin: 50px 0px;
+    /* width: 70% !important; */
+}
+
+.buyChickenItem div,
+.buyChickenItem button {
+    font-size: 20px;
+    text-align: left !important;
+}
+
+.buyChickenItem .headline {
+    font-weight: bold;
+    font-size: 30px;
+    color: var(--mainColor5);
+
+}
+
+
+/* buy Chicken Styling End */
+
+/* farm for rent item styling start */
+
+.farmForRentItemInfo .farmInfo .farmInfoItem {
+    border-bottom: 5px dashed var(--mainColor1);
+    border-top: 5px dashed var(--mainColor1);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    margin: 30px 0px !important;
+}
+
+/* farm for rent item styling end */
+/* products part */
+
+.addProductPart{
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    bottom: 0%;
+    left: -105%;
+    background-color: var(--mainColor2);
+    transition: all .3s;
+    z-index: 2500;
+    overflow-y: auto;
+}
+
+
+/* products part */
+
+/* Footer Styling Start */
+
+.footer {
+    background-color: var(--mainColor5);
+
+}
+
+.footer .sendEmail input {
+    border: none;
+}
+
+.footer .sendEmail input:focus {
+    border: none;
+    outline: none;
+}
+
+.footer .sendEmail button {
+    background-color: var(--mainColor1);
+    color: #fff;
+    border: none;
+    height: 100%;
+}
+
+.footer .sendEmail {
+    height: 30px;
+}
+
+.footer .footerSocialLinks,
+.footerMainLinks a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer .footerSocialLinks:hover,
+.footerMainLinks a:hover {
+    color: var(--mainColor1);
+}
+
+/* Footer Styling End */
+
+/* Media Query Start */
+
+@media screen and (max-width:1024px) {
+
+    .websiteForm{
+        width: 95% !important;
+        margin: 20px 10px !important;
+    }
+
+    .websiteFormSendButton,
+    .websiteMenuButton {
+        width: 70% !important;
+        margin: 20px auto !important;
+    }
+    .displayYours {
+        width: 50% !important;
+        margin-left: auto !important;
+    }
+
+    h1 {
+        font-size: 20px !important;
+    }
+
+    nav,
+    .footer {
+        display: none !important;
+    }
+
+    .responsiveNavbar {
+        display: flex !important;
+    }
+
+    /* .buyChickenItem div {
+        width: 100% !important;
+        text-align: center !important;
+        /* background-color: red; */
+    /* margin: 3px 0px;
+        padding: 0px !important; */
+    /* } */
+    /* .buyChickenItem{
+        padding: 1px !important;
+    } */
+    /* .buyChickenItem .image{
+        width: 50% !important;
+        margin: auto;
+    } */
+
+    .buyChickenDiv {
+        padding: 1px !important;
+        width: 100% !important;
+        margin: auto !important;
+    }
+
+    .buyChickenItem {
+        flex-wrap: nowrap;
+        width: 100% !important;
+        margin: 10px auto !important;
+    }
+
+    .buyChickenItem div,
+    .buyChickenItem button {
+        font-size: 12px !important;
+        text-align: center !important;
+
+    }
+
+ 
+
+    .buyChickenItem .image {
+        width: 20% !important;
+        padding: 7px !important;
+        margin: 0px !important;
+    }
+    .buyChickenItem .image img{
+        width: 100%;
+    }
+    .buyChickenItem .moreInfo{
+        padding: 5px !important;
+    }
+    .buyChickenItem .moreInfo a{
+        padding: 7px !important;
+    }
+
+    .carousel {
+        width: 100% !important;
+        padding: 10px !important;
+    }
+
+    .carousel button {
+        margin: 10px !important;
+        opacity: 1 !important;
+    }
+
+    .carousel-inner {
+        width: 100% !important;
+        padding: 0px !important;
+    }
+
+    .favFarmsForRent {
+        padding: 10px !important;
+    }
+
+    .table {
+        width: 150% !important;
+    }
+
+    .tableContainer {
+        width: 100% !important;
+        overflow-x: auto !important;
+    }
+
+    .stockMarket {
+        width: 80% !important;
+    }
+
+    .chickenArticleDiv {
+        width: 80% !important;
+    }
+
+    .numbers {
+        width: 50px !important;
+        height: 65px;
+        margin: 0px 5px;
+        padding: 20px;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 50px !important;
+    }
+
+    .menuCategory {
+        width: 90% !important;
+    }
+
+    .websiteMenuItem a {
+        font-size: 20px !important;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 50px !important;
+    }
+
+    .mainHeadlineIcon {
+        width: 30% !important;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+    h1 {
+        text-align: center;
+        font-size: 20px !important;
+    }
+
+    .mainHeadlineIcon {
+        width: 50% !important;
+    }
+    .displayYours{
+        width: 50% !important;
+        margin-left: auto !important;
+    }
+
+}
+
+/* Media Query End */

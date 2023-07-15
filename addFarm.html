@@ -1,0 +1,106 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>اضافة مزرعة</title>
+</head>
+<body>
+    <div w3-include-html="navbar.html"></div>
+    <div class="addProductHeadline d-flex mx-auto w-50 my-2 justify-content-center align-items-center">
+        <h1>اضافة مزرعة</h1>
+        <div style="width: 10%;" class="mainHeadlineIcon py-5 mx-3 text-center">
+            <img src="images/Chicken Icon black15.png" class="w-100" alt="">
+        </div>
+    </div>
+
+    <div class="w-25 websiteForm my-3 mx-auto">
+        <div class="websiteFormStyle">
+            <div class="websiteFormIcon">
+                <i class="fa-solid fa-user"></i>
+            </div>
+            <input type="text" class="fullName" placeholder="الاسم بالكامل">
+        </div>
+        <div class="websiteFormStyle">
+            <div class="websiteFormIcon">
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+            <input type="text" class="email" placeholder="البريد الالكتروني">
+        </div>
+        <div class="websiteFormStyle">
+            <div class="websiteFormIcon">
+                <i class="fa-solid fa-phone"></i>
+            </div>
+            <input type="text" class="phoneNumber" placeholder="رقم الهاتف">
+        </div>
+        <div class="websiteFormStyle">
+            <div class="websiteFormIcon">
+                <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <input type="text" class="address" placeholder="العنوان">
+        </div>
+        <div class="websiteFormStyle">
+            <div class="websiteFormIcon">
+                <i class="fa-solid fa-stairs"></i>
+            </div>
+            <input type="text" class="floors" placeholder="عدد الطوابق">
+        </div>
+        <div class="websiteFormStyle">
+            <div class="websiteFormIcon">
+                <i class="fa-solid fa-box"></i>
+            </div>
+            <input type="text" class="name" placeholder="اسم المنتج">
+        </div>
+        <div class="websiteFormStyle">
+            <div class="websiteFormIcon">
+                <i class="fa-solid fa-box"></i>
+            </div>
+            <input type="text" class="capacity" placeholder="السعة">
+        </div>
+        <div class="websiteFormStyle">
+            <div class="websiteFormIcon">
+                <i class="fa-solid fa-square"></i>
+            </div>
+            <input type="text" class="area" placeholder="المساحة">
+        </div>
+     
+        <!-- <div class="websiteTextAreaStyle mb-5">
+            <div class="websiteFormIcon w-100">
+                <i class="fa-solid fa-table-list"></i>
+            </div>
+            <textarea placeholder="الوصف"  rows="10" class="p-3"></textarea>
+        </div> -->
+        <div class="websiteUploadImageStyle">
+            <div class="websiteFormIcon w-100">
+                <i class="fa-solid fa-image"></i>
+            </div> 
+            <div class="p-5 d-flex justify-content-center align-items-center imageUploader">
+                <button class="uploadImage btn btn-info">
+                    اضف صورة
+                </button>
+                <input type="file" class="upload" hidden>
+            </div>
+        </div>
+     
+            </div>
+
+  
+   
+
+    <a class="btn w-25 my-1 text-light d-block py-3 mx-auto btn-info addAFarmSendButton websiteFormSendButton">ارسال</a>
+    <a  href="farmsForRent.html"
+    class="btn w-25 my-1 text-light d-block py-3 mx-auto btn-info websiteMenuButton">السابق</a>
+    <div class="endLine2 w-50 my-5"></div>
+
+    <div w3-include-html="footer.html"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script type="module" src="js/addFarm.js"></script>
+</body>
+</html>
